@@ -1,0 +1,95 @@
+/*
+Primary font: Lato
+Secondary font: Roboto Condensed
+
+Dark blue: rgb(74, 136, 237)
+Light blue: rgb(209, 236, 241)
+
+Dark organge: rgb(245, 187, 93)
+Light orange: rgb(242, 212, 162)
+
+font-family: "Lato", sans-serif;
+font-family: "Roboto Condensed", sans-serif;
+*/
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+body {
+    background: rgb(209, 236, 241)
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 50px;
+}
+
+p { 
+    font-family: "Lato", sans-serif;
+}
+
+li {
+    font-family: "Lato", sans-serif
+}
+
+a {
+    font-family: "Lato", sans-serif
+}
+
+h1 {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+h2 {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.sidebar {
+    background: rgb(245, 229, 201)
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-grid > img { /*every image inside image grid */
+    margin: 10px;
+}
+
+#image-1 {
+    float: right;
+    margin: 15px;
+    height: 300px;
+}
+
+.post {
+    border: 2px solid rgb(239, 166, 49);
+    margin: 10px;
+}
+
+.post-title {
+    margin-left: 5px; 
+}
+
+.post-text {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.post > a {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color:rgb(74, 136, 237)
+}
+
+.post > a:hover {
+    color: rgb(209, 236, 241); 
+    transition:
+}
+
